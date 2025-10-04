@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publikacje – Tomasz Janczewski</title>
+  <meta name="description" content="Zestawienie publikacji i wystąpień naukowych Tomasza Janczewskiego.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Publikacje – Tomasz Janczewski</h1>
+    <p class="small">Filtruj, przeszukuj i kopiuj BibTeX. Dodawaj nowe pozycje w <code>data/publications.json</code>.</p>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Szukaj tytułu, autora, słowa kluczowego…">
+      <select id="filter-year"><option>Ładowanie…</option></select>
+      <select id="filter-type">
+        <option value="">Typ: wszystkie</option>
+        <option value="journal">Artykuł</option>
+        <option value="conference">Konferencja</option>
+        <option value="chapter">Rozdział</option>
+        <option value="book">Książka</option>
+        <option value="preprint">Preprint</option>
+      </select>
+    </div>
+  </div>
+</header>
+<main class="container">
+  <div id="list" aria-live="polite">Ładowanie…</div>
+</main>
+<footer>
+  <div class="container small">
+    <p>© 2025 Tomasz Janczewski • Statyczna strona bez cookies. JSON‑LD dla SEO, BibTeX, filtrowanie po roku/typie.</p>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

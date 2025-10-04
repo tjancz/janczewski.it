@@ -1,0 +1,126 @@
+[
+  {
+    "id": "janczewski2014-kompresja",
+    "title": "Analiza wpływu kompresji na przyśpieszenie ładowania stron WWW",
+    "authors": [
+      "Tomasz Janczewski"
+    ],
+    "year": 2014,
+    "venue": "Techniki informacyjne – teoria i zastosowania, Tom 16 PAN",
+    "type": "journal",
+    "language": "pl",
+    "abstract": "Analiza metod kompresji i ich wpływu na czas ładowania witryn WWW w kontekście wydajności.",
+    "keywords": [
+      "kompresja",
+      "HTTP",
+      "wydajność",
+      "WWW"
+    ],
+    "pdf": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "janczewski2024-ik",
+    "title": "Wybrane zagrożenia cyberbezpieczeństwa infrastruktury krytycznej",
+    "authors": [
+      "Tomasz Janczewski"
+    ],
+    "year": 2024,
+    "venue": "Przestępczość teleinformatyczna 2023, Numer Specjalny 2024/1 (3)",
+    "type": "journal",
+    "language": "pl",
+    "abstract": "Przegląd zagrożeń oraz rekomendacje dla ochrony infrastruktury krytycznej.",
+    "keywords": [
+      "infrastruktura krytyczna",
+      "cyberbezpieczeństwo"
+    ],
+    "pdf": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "janczewski2025-ai-logi",
+    "title": "Wykorzystanie sztucznej inteligencji do analizy logów serwera w celu wykrywania anomalii",
+    "authors": [
+      "Tomasz Janczewski"
+    ],
+    "year": 2025,
+    "venue": "Przestępczość teleinformatyczna 2024, Numer Specjalny 2025/1 (4)",
+    "type": "journal",
+    "language": "pl",
+    "abstract": "Metody AI dla wykrywania anomalii w logach serwerowych oraz walidacja na danych rzeczywistych.",
+    "keywords": [
+      "AI",
+      "anomaly detection",
+      "logi",
+      "bezpieczeństwo"
+    ],
+    "pdf": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "stoja-jancz-szczep-2025-deepfake",
+    "title": "DEEPFAKE IN AUDIO-VIDEO TRANSMISSION - PROTECTION METHODS",
+    "authors": [
+      "Arkadiusz Stojałowski",
+      "Tomasz Janczewski",
+      "K. Szczepaniuk"
+    ],
+    "year": 2025,
+    "venue": "Cybersecurity & Cybercrime – Nowe Czasopismo Naukowe",
+    "type": "journal",
+    "language": "en",
+    "abstract": "Overview of protection methods against deepfakes in audio-video transmission.",
+    "keywords": [
+      "deepfake",
+      "audio-video",
+      "detection",
+      "protection"
+    ],
+    "pdf": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "janczewski2025-devsecops",
+    "title": "Implementacja Praktyk DevSecOps w Środowiskach Chmurowych dla Infrastruktury Krytycznej",
+    "authors": [
+      "Tomasz Janczewski"
+    ],
+    "year": 2025,
+    "venue": "Zeszyty Naukowe Wyższej Szkoły Bankowej w Poznaniu",
+    "type": "journal",
+    "language": "pl",
+    "abstract": "Zestaw praktyk i architektur DevSecOps dla środowisk chmurowych obsługujących infrastrukturę krytyczną.",
+    "keywords": [
+      "DevSecOps",
+      "chmura",
+      "infrastruktura krytyczna"
+    ],
+    "pdf": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "janczewski2025-zerotrust",
+    "title": "Zero Trust jako odpowiedź na cyberprzestępczość: Jak chronić organizacje przed współczesnymi zagrożeniami?",
+    "authors": [
+      "Tomasz Janczewski"
+    ],
+    "year": 2025,
+    "venue": "Przestępczość teleinformatyczna 2025",
+    "type": "journal",
+    "language": "pl",
+    "abstract": "Model Zero Trust w praktyce – rekomendacje wdrożeniowe i studia przypadków.",
+    "keywords": [
+      "Zero Trust",
+      "architektura bezpieczeństwa",
+      "polityki"
+    ],
+    "pdf": "",
+    "url": "",
+    "doi": ""
+  }
+]
