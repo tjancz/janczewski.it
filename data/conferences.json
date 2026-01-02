@@ -1,0 +1,179 @@
+[
+  {
+    "id": "semafo2020-modern-cicd",
+    "title": "Modern CI/CD security testing",
+    "date": "16-17/09/2020",
+    "year": 2020,
+    "venue": "XIII Forum Bezpieczeństwa i Audytu IT SEMAFOR",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "semafo2021-docker-security",
+    "title": "Rzecz o bezpieczeństwie kontenerów, czyli dobre praktyki w pracy z Docker",
+    "date": "27-28/05/2021",
+    "year": 2021,
+    "venue": "XIV Forum Bezpieczeństwa i Audytu IT SEMAFOR",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "semafo2022-web-config-errors",
+    "title": "101 twarzy błędów konfiguracji webowej aplikacji",
+    "date": "17-18/03/2022",
+    "year": 2022,
+    "venue": "XV Forum Bezpieczeństwa i Audytu IT SEMAFOR",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "semafo2023-365-days-cyberwar",
+    "title": "365 dni cyberwojny, czyli jakie ataki przeżył mój serwer w trakcie ostatniego roku",
+    "date": "13-14/03/2023",
+    "year": 2023,
+    "venue": "XVI Forum Bezpieczeństwa i Audytu IT SEMAFOR",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "amw2023-365-days-cyberwar",
+    "title": "365 dni cyberwojny, czyli jakie ataki przeżył mój serwer w trakcie ostatniego roku",
+    "date": "06-07/06/2023",
+    "year": 2023,
+    "venue": "Przestępczość Teleinformatyczna XXI – V KONFERENCJA NAUKOWA AKADEMIA MARYNARKI WOJENNEJ IM. BOHATERÓW WESTERPLATTE W GDYNI",
+    "type": "conference",
+    "location": "Gdynia",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "confitura2023-365-days-cyberwar",
+    "title": "365 dni cyberwojny, czyli jakie ataki przeżył mój serwer w trakcie ostatniego roku",
+    "date": "23-24/06/2023",
+    "year": 2023,
+    "venue": "Confitura",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "jdd2023-365-days-cyberwar",
+    "title": "365 dni cyberwojny, czyli jakie ataki przeżył mój serwer w trakcie ostatniego roku",
+    "date": "25-26/10/2023",
+    "year": 2023,
+    "venue": "{j}DD",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "semafo2024-api-defense",
+    "title": "Budowanie Nieprzebitej Obrony API w Świecie Webaplikacji",
+    "date": "14-15/03/2024",
+    "year": 2024,
+    "venue": "XVII Forum Bezpieczeństwa i Audytu IT SEMAFOR",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "amw2024-securing-web-apps",
+    "title": "Securing Web Applications in the Face of Evolving Cybercrime",
+    "date": "27-29/05/2024",
+    "year": 2024,
+    "venue": "Przestępczość Teleinformatyczna XXI – VI KONFERENCJA NAUKOWA AKADEMIA MARYNARKI WOJENNEJ IM. BOHATERÓW WESTERPLATTE W GDYNI",
+    "type": "conference",
+    "location": "Gdynia",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "amw2024-secure-coding-workshop",
+    "title": "Bezpieczne kodowanie aplikacji webowych",
+    "date": "27-29/05/2024",
+    "year": 2024,
+    "venue": "Przestępczość Teleinformatyczna XXI – VI KONFERENCJA NAUKOWA AKADEMIA MARYNARKI WOJENNEJ IM. BOHATERÓW WESTERPLATTE W GDYNI",
+    "type": "conference",
+    "location": "Gdynia",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "semafo2025-zero-trust",
+    "title": "Architektura Zero Trust w Praktyce: Od Strategii do Skutecznej Implementacji",
+    "date": "10-11/03/2025",
+    "year": 2025,
+    "venue": "XVII Forum Bezpieczeństwa i Audytu IT SEMAFOR",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "devoxx2025-java-security",
+    "title": "Bezpieczne aplikacje Java: Jak unikać podatności i wdrażać najlepsze praktyki bezpieczeństwa?",
+    "date": "11-13/06/2025",
+    "year": 2025,
+    "venue": "DEVOXX POLAND 2025",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "amw2025-zero-trust-cybercrime",
+    "title": "Zero Trust jako odpowiedź na cyberprzestępczość: Jak chronić organizacje przed współczesnymi zagrożeniami?",
+    "date": "16-18/06/2025",
+    "year": 2025,
+    "venue": "Przestępczość Teleinformatyczna XXI - VII KONFERENCJA NAUKOWA AKADEMIA MARYNARKI WOJENNEJ IM. BOHATERÓW WESTERPLATTE W GDYNI",
+    "type": "conference",
+    "location": "Gdynia",
+    "url": "",
+    "doi": ""
+  },
+  {
+    "id": "confitura2025-java-owasp",
+    "title": "Bezpieczne aplikacje Java: Wykorzystanie OWASP Top 10 i najlepszych praktyk Spring Boot w ochronie przed podatnościami",
+    "date": "20-21/09/2025",
+    "year": 2025,
+    "venue": "Confitura 2025",
+    "type": "conference",
+    "location": "",
+    "url": "",
+    "doi": "10.13140/RG.2.2.25818.81607"
+  },
+  {
+    "id": "hackyeah2025-csp",
+    "title": "CSP: Niewidzialna tarcza Twojej aplikacji webowej",
+    "date": "5–6 października 2025",
+    "year": 2025,
+    "venue": "HackYeah 2025",
+    "type": "conference",
+    "location": "Tauron Arena Kraków",
+    "url": "",
+    "doi": "10.13140/RG.2.2.20976.52483"
+  },
+  {
+    "id": "yavaconf2025-java-security",
+    "title": "Bezpieczne aplikacje Java: Jak unikać podatności i wdrażać najlepsze praktyki bezpieczeństwa?",
+    "date": "05/12/2025",
+    "year": 2025,
+    "venue": "YavaConf",
+    "type": "conference",
+    "location": "Centrum Nauki Kopernik w Warszawie",
+    "url": "",
+    "doi": "10.13140/RG.2.2.15955.85288"
+  }
+]
+
