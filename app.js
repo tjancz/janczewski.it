@@ -1,15 +1,23 @@
 
 async function loadPubs(){
-  const res = await fetch('data/publications.json');
-  const pubs = await res.json();
-  window.__PUBS__ = pubs;
-  populateFilters(pubs);
-  render(pubs);
+  try {
+    const res = await fetch('data/publications.json');
+    if(!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+    const pubs = await res.json();
+    if(!Array.isArray(pubs)) throw new Error('Invalid data format');
+    window.__PUBS__ = pubs;
+    populateFilters(pubs);
+    render(pubs);
+  } catch(error) {
+    console.error('Error loading publications:', error);
+    document.getElementById('list').innerHTML = '<p>Błąd ładowania publikacji.</p>';
+  }
 }
 function populateFilters(pubs){
   const years = Array.from(new Set(pubs.map(p=>p.year))).sort((a,b)=>b-a);
   const selYear = document.getElementById('filter-year');
-  selYear.innerHTML = '<option value="">Rok: wszystkie</option>' + years.map(y=>`<option>${y}</option>`).join('');
+  selYear.innerHTML = '<option value="">Rok: wszystkie</option>' + years.map(y=>`<option value="${y}">${y}</option>`).join('');
+  selYear.value = ''; // Upewnij się, że domyślnie wybrana jest opcja "wszystkie"
 }
 function bibtex(p){
   const authors = p.authors.map(a=>a.replace(/\s+/g,' ')).join(' and ');
@@ -40,6 +48,10 @@ function schemaLD(p){
   return `<script type="application/ld+json">${JSON.stringify(ld)}</script>`;
 }
 function render(pubs){
+  if(!pubs || !Array.isArray(pubs) || pubs.length === 0){
+    document.getElementById('list').innerHTML = '<p>Brak wyników.</p>';
+    return;
+  }
   const q = document.getElementById('q').value.trim().toLowerCase();
   const y = document.getElementById('filter-year').value;
   const t = document.getElementById('filter-type').value;
@@ -47,7 +59,7 @@ function render(pubs){
   let filtered = pubs.filter(p=>{
     const hay = (p.title + ' ' + p.authors.join(' ') + ' ' + (p.abstract||'') + ' ' + (p.keywords||[]).join(' ') + ' ' + p.venue).toLowerCase();
     const okQ = q ? hay.includes(q) : true;
-    const okY = y && y !== 'Ładowanie…' ? String(p.year)===String(y) : true;
+    const okY = y && y !== '' && y !== 'Ładowanie…' && y !== 'Rok: wszystkie' ? String(p.year)===String(y) : true;
     const okT = t ? p.type===t : true;
     return okQ && okY && okT;
   }).sort((a,b)=> b.year - a.year || a.title.localeCompare(b.title));
