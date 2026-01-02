@@ -3,8 +3,8 @@ async function loadPubs(){
   const res = await fetch('data/publications.json');
   const pubs = await res.json();
   window.__PUBS__ = pubs;
-  render(pubs);
   populateFilters(pubs);
+  render(pubs);
 }
 function populateFilters(pubs){
   const years = Array.from(new Set(pubs.map(p=>p.year))).sort((a,b)=>b-a);
@@ -47,7 +47,7 @@ function render(pubs){
   let filtered = pubs.filter(p=>{
     const hay = (p.title + ' ' + p.authors.join(' ') + ' ' + (p.abstract||'') + ' ' + (p.keywords||[]).join(' ') + ' ' + p.venue).toLowerCase();
     const okQ = q ? hay.includes(q) : true;
-    const okY = y ? String(p.year)===String(y) : true;
+    const okY = y && y !== 'Ładowanie…' ? String(p.year)===String(y) : true;
     const okT = t ? p.type===t : true;
     return okQ && okY && okT;
   }).sort((a,b)=> b.year - a.year || a.title.localeCompare(b.title));

@@ -69,7 +69,7 @@
       "K. Szczepaniuk"
     ],
     "year": 2025,
-    "venue": "Cybersecurity & Cybercrime – Nowe Czasopismo Naukowe",
+    "venue": "Cybersecurity & Cybercrime, Tom 1, Nr 7",
     "type": "journal",
     "language": "en",
     "abstract": "Overview of protection methods against deepfakes in audio-video transmission.",
@@ -81,7 +81,7 @@
     ],
     "pdf": "",
     "url": "",
-    "doi": ""
+    "doi": "10.5604/01.3001.0055.1495"
   },
   {
     "id": "janczewski2025-devsecops",
@@ -101,7 +101,7 @@
     ],
     "pdf": "",
     "url": "",
-    "doi": ""
+    "doi": "10.58683/dnswsb.2064"
   },
   {
     "id": "janczewski2025-zerotrust",
